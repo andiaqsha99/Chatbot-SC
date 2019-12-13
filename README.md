@@ -5,4 +5,4 @@ library Sastrawi\
 library numpy\
 library json\
 library pickle\
-library rando\
+library random
