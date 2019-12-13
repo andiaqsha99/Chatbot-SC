@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "Menyapa",
+         "patterns": ["Hi", "Permisi", "Halo", "Selamat pagi","Selamat siang","Selamat malam", "Apa kabar"],
+         "responses": ["Halo!", "Selamat pagi, ada yang bisa dibantu", "Ada yang bisa dibantu?",
+         "Selamat siang, ada yang bisa dibantu", "Selamat malam, ada yang bisa dibantu"],
+         "context_set": ""
+        },
+        {"tag": "Perpisahan",
+         "patterns": ["Sampai jumpa", "Terima kasih","Thanks"],
+         "responses": ["Sama-sama", "Bye-bye", "Jangan lupa berbelanja lagi","Terima kasih telah berbelanja"],
+         "context_set": ""
+        },
+        {"tag": "Umur",
+         "patterns": ["Berapa umur mu?", "Umur mu?", "Sudah berapa tahun anda?"],
+         "responses": ["Saya berumur 5 tahun", "5 tahun"],
+         "context_set": ""
+        },
+        {"tag": "Nama",
+         "patterns": ["Siapa namamu?", "Nama panggilan?", "Nama?","Nama Lengkap?"],
+         "responses": ["ASEP", "Artificial System on E-Commerce Product"],
+         "context_set": ""
+        },
+        {"tag": "Toko",
+         "patterns": ["Saya ingin beli sesuatu", "Apa saja yang dijual?", "Rekomendasi?", "Adakah barang yang baru?"],
+         "responses": ["Silahkan pilih buku yang Anda ingin beli","Kami menjual berbagai jenis buku, mulai dari komik hingga buku politik", "Buku Novel berjudul 'Serangan Fajar'",
+        "Komik Boruto X Tukang Bubur chapter 48"],
+         "context_set": ""
+        },
+        {"tag": "Waktu",
+         "patterns": ["Kapan kalian buka", "Buka kapan?", "Waktu operasi ?"],
+         "responses": ["Kami buka hari senin-sabtu dari jam 9 pagi sampai dengan 9 malam"],
+         "context_set": ""
+        },
+        {"tag": "Alamat",
+         "patterns": ["Alamat toko?", "Toko beralamat dimana?", "Di jalan apa?"],
+         "responses": ["Jalan Rawa simprug 13 no 44 "],
+         "context_set": ""
+        },
+        {"tag": "Joke",
+        "patterns": ["Tell me a joke", "Lelucon", "Punya bahan bercandaan?","Pantun"],
+        "responses": ["Angka apa yang lebih lucu dari 24?, jawabannya 25","Pala benjol suara cempreng, Pesen ojol jangan buat prank"],
+        "context_set": ""
+        },
+        {"tag": "Tentang",
+        "patterns": ["Ceritakan tentang dirimu", "Ceritakan tentang toko", "Apa itu ASEP"],
+        "responses": ["Saya adalah ASEP , Artificial Intelligence yang siap membantu Anda dalam Memesan Barang",
+        "Toko ini berfokus pada penjualan buku-buku, telah berdiri sejak 1960","Artificial System on E-Commerce Product"],
+        "context_set": ""
+        },
+        {"tag": "Pesan",
+        "patterns": ["Bagaimana cara memesan?", "Apakah bisa pesan online", "Apakah saya bisa ke toko?"],
+        "responses": ["Pilih menu pesan yang ada di menu","Bisa, pilih menu pesan dan lengkapi data diri Anda"
+        ,"Bisa,toko berada di Jalan Rawa simprug 13 no 44 ,Kami buka hari senin-sabtu dari jam 9 pagi sampai dengan 9 malam"],
+        "context_set": ""
+        }
+
+   ]
+}
